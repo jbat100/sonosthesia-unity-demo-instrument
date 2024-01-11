@@ -95,6 +95,116 @@ MonoBehaviour:
   _extractor:
     _filter: -1
     _selector: 1
+  _postProcessor:
+    _abs: 0
+    _scale: 1
+    _offset: 0
+--- !u!1 &7194337201778386860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7992176942462982545}
+  - component: {fileID: 6987496851353771747}
+  m_Layer: 6
+  m_Name: Bend
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7992176942462982545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7194337201778386860}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5828669502713559292}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6987496851353771747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7194337201778386860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccdb40537a484657b848dd315ce846f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _track: 1
+  _relative: 1
+  _extractor:
+    _filter: 2
+    _selector: 8
+  _postProcessor:
+    _abs: 0
+    _scale: 20
+    _offset: 0
+--- !u!1 &7292668805849821957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2570483330552498268}
+  - component: {fileID: 1775267382355193721}
+  m_Layer: 6
+  m_Name: Pressure
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2570483330552498268
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7292668805849821957}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5828669502713559292}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1775267382355193721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7292668805849821957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccdb40537a484657b848dd315ce846f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _track: 1
+  _relative: 1
+  _extractor:
+    _filter: 4
+    _selector: 9
+  _postProcessor:
+    _abs: 0
+    _scale: 20
+    _offset: 64
 --- !u!1 &7895867036582033815
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,7 +256,7 @@ MonoBehaviour:
     _selector: 7
   _postProcessor:
     _abs: 0
-    _scale: 1
+    _scale: 20
     _offset: 64
 --- !u!1 &9012897602431372059
 GameObject:
@@ -180,6 +290,8 @@ Transform:
   - {fileID: 5746788735116459027}
   - {fileID: 2091641849697478008}
   - {fileID: 9071556067550002292}
+  - {fileID: 2570483330552498268}
+  - {fileID: 7992176942462982545}
   m_Father: {fileID: 2703236323314525646}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &8338015102263842159
@@ -190,6 +302,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 517513232673486230, guid: 4906b869911bd6b47b9d25327f282ad5, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5434172591483119872, guid: 4906b869911bd6b47b9d25327f282ad5, type: 3}
       propertyPath: m_Name
       value: MPETriggerKeyboardElement
@@ -282,7 +398,7 @@ MonoBehaviour:
   _endOnExit: 1
   _restartOnEnter: 1
   _note: {fileID: 6996502915367140516}
-  _velocity: {fileID: 0}
-  _slide: {fileID: 0}
-  _pressure: {fileID: 0}
-  _bend: {fileID: 0}
+  _velocity: {fileID: 5388101271516059349}
+  _slide: {fileID: 2290599847699972707}
+  _pressure: {fileID: 1775267382355193721}
+  _bend: {fileID: 6987496851353771747}
