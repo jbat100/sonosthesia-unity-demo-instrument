@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6723227349794986413}
   - component: {fileID: 3932748681686717584}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Note
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   m_Component:
   - component: {fileID: 470166453847637724}
   - component: {fileID: 9033351349245291588}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Velocity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3729492685177787186}
   - component: {fileID: 6179775932314558332}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Drag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,7 +148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 750884865480157353}
   - component: {fileID: 3163798921734973340}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Activation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +194,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8508416637906160195}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Affordances
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,7 +227,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2287302710731201312}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Generators
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -264,7 +264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1514105805005392240}
   - component: {fileID: 2311400759375427445}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bend
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -325,7 +325,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3072978726916970981}
   - component: {fileID: 7176148007702774075}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pressure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -386,7 +386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8329054611099473123}
   - component: {fileID: 1237416060613450993}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Slide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -445,9 +445,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2838058287901401460, guid: 4906b869911bd6b47b9d25327f282ad5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3500895091726121055, guid: 4906b869911bd6b47b9d25327f282ad5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5434172591483119872, guid: 4906b869911bd6b47b9d25327f282ad5, type: 3}
       propertyPath: m_Name
       value: MPEPointerPositionKeyboardElement
+      objectReference: {fileID: 0}
+    - target: {fileID: 5434172591483119872, guid: 4906b869911bd6b47b9d25327f282ad5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6211949953776824481, guid: 4906b869911bd6b47b9d25327f282ad5, type: 3}
       propertyPath: m_LocalPosition.x
