@@ -1113,7 +1113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f841af043b074ca0adb0034612b6f871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxConcurrent: 1
+  _maxConcurrent: 3
   _allowSwitching: 1
   _parent: {fileID: 0}
 --- !u!1001 &3974355117685263097
