@@ -138,6 +138,8 @@ MonoBehaviour:
   _targetPrefab: {fileID: 1920636664342884993, guid: 1711bed227d9de242bf6aa48033905b0, type: 3}
   _lineRendererPrefab: {fileID: -403053538776792211, guid: 4c9dcf00f39972f4bb72a74a39815887, type: 3}
   _offset: 0.5
+  _applyScrollScale: 1
+  _targetScrollScale: 0.1
 --- !u!1 &1339218162909088826
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,7 +315,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   _postProcessor:
     _abs: 0
-    _scale: 0.3
+    _scale: 0.01
     _offset: 0
 --- !u!1 &6992485631007514001
 GameObject:
@@ -324,7 +326,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3072978726916970981}
-  - component: {fileID: 7176148007702774075}
+  - component: {fileID: 7916111846702019848}
   m_Layer: 6
   m_Name: Pressure
   m_TagString: Untagged
@@ -347,7 +349,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2287302710731201312}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7176148007702774075
+--- !u!114 &7916111846702019848
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -356,25 +358,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 6992485631007514001}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12cfa9f4cd0345eb835b4f2f440a62d0, type: 3}
+  m_Script: {fileID: 11500000, guid: 64a9a8512a7b4f5991714bb124aed664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _track: 1
   _relative: 1
-  _extractor:
-    _filter: 1
-    _selector: 7
-  _axisType: 1
-  _applyTransferCurve: 0
-  _transferCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  _sensitivity: 4
   _postProcessor:
     _abs: 0
-    _scale: 0.3
+    _scale: 1
     _offset: 64
 --- !u!1 &7373797956431141120
 GameObject:
@@ -424,7 +416,7 @@ MonoBehaviour:
   _relative: 1
   _extractor:
     _filter: 1
-    _selector: 0
+    _selector: 7
   _axisType: 1
   _applyTransferCurve: 0
   _transferCurve:
@@ -435,7 +427,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   _postProcessor:
     _abs: 0
-    _scale: 0.3
+    _scale: 0.1
     _offset: 64
 --- !u!1001 &5428632508417882593
 PrefabInstance:
@@ -537,7 +529,7 @@ MonoBehaviour:
   _endOnExit: 0
   _note: {fileID: 3932748681686717584}
   _velocity: {fileID: 9033351349245291588}
-  _pressure: {fileID: 7176148007702774075}
+  _pressure: {fileID: 7916111846702019848}
   _slide: {fileID: 1237416060613450993}
   _bend: {fileID: 2311400759375427445}
 --- !u!114 &1168502317570863010 stripped
