@@ -8,6 +8,39 @@ This demo showcases the instrument building and MIDI/MPE control capabilities of
 
 Note the raw MIDI functionality is presented in a separate [demo project](https://github.com/jbat100/sonosthesia-unity-demo-midi).
 
+
+## Installation
+
+Note that to add those packages to your Unity project you will need to add the following [scoped registeries](https://docs.unity3d.com/Manual/upm-scoped.html) to your `Packages/package.json` file (`Keijiro` only necessary for the [com.sonosthesia.rtmidi](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.rtmidi) backend). 
+
+
+```
+"scopedRegistries": [
+    {
+      "name": "Neuecc",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.neuecc.unirx",
+        "com.cysharp.unitask"
+      ]
+    },
+    {
+      "name": "Keijiro",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "jp.keijiro"
+      ]
+    },
+    {
+      "name": "Sonosthesia",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "com.sonosthesia"
+      ]
+    }
+  ]
+```
+
 ## Procedural Instrument Builders
 
 Note these builders can be used both in play mode or in edit mode.
