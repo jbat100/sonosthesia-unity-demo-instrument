@@ -49,6 +49,8 @@ Note these builders can be used both in play mode or in edit mode.
 
 A highly configurable keyboard builder. 
 
+![Desktop 2024 01 17 - 10 30 49 01_short](https://github.com/jbat100/sonosthesia-unity-demo-instrument/assets/1318918/2a9622b9-c820-4f28-991e-22df35698778)
+
 ### Experimental
 
 Scaled instrument builders are in development allowing configurable scale and more control over the procedural placement of elements allowing the procedural creation of instruments such as harps and xylophones.
@@ -58,3 +60,5 @@ Scaled instrument builders are in development allowing configurable scale and mo
 
 
 ## MPE Controller
+
+![Desktop 2024 01 17 - 10 50 06 02_short](https://github.com/jbat100/sonosthesia-unity-demo-instrument/assets/1318918/b21e625a-6ba0-4535-a195-c89b7fe42217)
