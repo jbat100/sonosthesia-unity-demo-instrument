@@ -44,6 +44,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa9fde4236446c2aaa41ad15dc85562, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &3785918005481727487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5829605795010619524}
+  - component: {fileID: 3098055947757604104}
+  m_Layer: 6
+  m_Name: Activation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5829605795010619524
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3785918005481727487}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3554008216393331517}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3098055947757604104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3785918005481727487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56be518168304b31ae65cad213598c18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _source: {fileID: 1403396428658144616}
+  _targets:
+  - {fileID: 6112610061000913947}
 --- !u!1 &3859241015191338224
 GameObject:
   m_ObjectHideFlags: 0
@@ -74,6 +121,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 532755740009971785}
+  - {fileID: 5829605795010619524}
   m_Father: {fileID: 2703236323314525646}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6082387408615831514
@@ -485,3 +533,8 @@ MonoBehaviour:
   _slide: {fileID: 2290599847699972707}
   _pressure: {fileID: 1775267382355193721}
   _bend: {fileID: 6987496851353771747}
+--- !u!1 &6112610061000913947 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2838058287901401460, guid: 4906b869911bd6b47b9d25327f282ad5, type: 3}
+  m_PrefabInstance: {fileID: 8338015102263842159}
+  m_PrefabAsset: {fileID: 0}
