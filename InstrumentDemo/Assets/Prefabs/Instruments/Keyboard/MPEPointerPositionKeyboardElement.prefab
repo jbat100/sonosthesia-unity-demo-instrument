@@ -138,8 +138,8 @@ MonoBehaviour:
   _targetPrefab: {fileID: 1920636664342884993, guid: 1711bed227d9de242bf6aa48033905b0, type: 3}
   _lineRendererPrefab: {fileID: -403053538776792211, guid: 4c9dcf00f39972f4bb72a74a39815887, type: 3}
   _offset: 0.5
-  _scaleDriver: 0
-  _scaleSensitivity: 0.1
+  _applyScrollScale: 1
+  _targetScrollScale: 0.1
 --- !u!1 &1339218162909088826
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,57 +220,6 @@ Transform:
   - {fileID: 750884865480157353}
   m_Father: {fileID: 2117579212574263616}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3843653590461412555
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4597143886620096274}
-  - component: {fileID: 8725314787365493979}
-  m_Layer: 6
-  m_Name: ScrollPressure
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4597143886620096274
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3843653590461412555}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2287302710731201312}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8725314787365493979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3843653590461412555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64a9a8512a7b4f5991714bb124aed664, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _track: 0
-  _relative: 0
-  _sensitivity: 1
-  _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
 --- !u!1 &4196220580319906055
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,7 +252,6 @@ Transform:
   - {fileID: 6723227349794986413}
   - {fileID: 470166453847637724}
   - {fileID: 3072978726916970981}
-  - {fileID: 4597143886620096274}
   - {fileID: 8329054611099473123}
   - {fileID: 1514105805005392240}
   m_Father: {fileID: 2117579212574263616}
@@ -367,7 +315,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   _postProcessor:
     _abs: 0
-    _scale: 0.05
+    _scale: 0.01
     _offset: 0
 --- !u!1 &6992485631007514001
 GameObject:
@@ -378,7 +326,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3072978726916970981}
-  - component: {fileID: 7216461127408270685}
+  - component: {fileID: 7916111846702019848}
   m_Layer: 6
   m_Name: Pressure
   m_TagString: Untagged
@@ -401,7 +349,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2287302710731201312}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7216461127408270685
+--- !u!114 &7916111846702019848
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -410,15 +358,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 6992485631007514001}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47034b96cd08447b9e5ce65d95187433, type: 3}
+  m_Script: {fileID: 11500000, guid: 64a9a8512a7b4f5991714bb124aed664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _track: 1
   _relative: 1
+  _sensitivity: 4
   _postProcessor:
     _abs: 0
-    _scale: 50
-    _offset: 30
+    _scale: 1
+    _offset: 64
 --- !u!1 &7373797956431141120
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,7 +427,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   _postProcessor:
     _abs: 0
-    _scale: 0.3
+    _scale: 0.1
     _offset: 64
 --- !u!1001 &5428632508417882593
 PrefabInstance:
@@ -580,7 +529,7 @@ MonoBehaviour:
   _endOnExit: 0
   _note: {fileID: 3932748681686717584}
   _velocity: {fileID: 9033351349245291588}
-  _pressure: {fileID: 7216461127408270685}
+  _pressure: {fileID: 7916111846702019848}
   _slide: {fileID: 1237416060613450993}
   _bend: {fileID: 2311400759375427445}
 --- !u!114 &1168502317570863010 stripped
