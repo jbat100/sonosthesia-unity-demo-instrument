@@ -10,6 +10,15 @@ Note the raw MIDI functionality is presented in a separate [demo project](https:
 
 ## Procedural Instrument Builders
 
+Note these builders can be used both in play mode or in edit mode.
+
+### Keyboard
+
+A highly configurable keyboard builder. 
+
+### Experimental
+
+Scaled instrument builders are in development allowing configurable scale and more control over the procedural placement of elements allowing the procedural creation of instruments such as harps and xylophones.
 
 ## MIDI Controller
 
