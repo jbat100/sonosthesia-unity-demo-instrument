@@ -65,6 +65,5 @@ Scaled instrument builders are in development allowing configurable scale and mo
 <p align="center">
     <img alt="MPE Controller" src="https://github.com/jbat100/sonosthesia-unity-demo-instrument/assets/1318918/b21e625a-6ba0-4535-a195-c89b7fe42217" width="75%">
 </p>
-![Desktop 2024 01 17 - 10 50 06 02_short](https://github.com/jbat100/sonosthesia-unity-demo-instrument/assets/1318918/b21e625a-6ba0-4535-a195-c89b7fe42217)
 
 The procedural builder uses a configurable prefab which can handle the production of MPE note streams. Currently pointer based and trigger (using physics) based interactions are supported. When using the pointer interaction the pressure, slide and bend of each note can be controlled sepearately using drag and pressure on multitouch platforms. 
