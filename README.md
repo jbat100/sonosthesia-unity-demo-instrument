@@ -60,6 +60,8 @@ Scaled instrument builders are in development allowing configurable scale and mo
 
 ## MIDI Control
 
+![MIDIController_clip_6_32_short](https://github.com/jbat100/sonosthesia-unity-demo-instrument/assets/1318918/bd43d460-3643-41e9-9492-1cbd801c8fbb)
+
 ## MPE Control
 
 <p align="center">
