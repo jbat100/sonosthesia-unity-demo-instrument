@@ -58,14 +58,25 @@ A highly configurable keyboard builder.
 
 Scaled instrument builders are in development allowing configurable scale and more control over the procedural placement of elements allowing the procedural creation of instruments such as harps and xylophones.
 
-## MIDI Control
+## MIDI/MPE Control
 
-![MIDIController_clip_6_32_short](https://github.com/jbat100/sonosthesia-unity-demo-instrument/assets/1318918/bd43d460-3643-41e9-9492-1cbd801c8fbb)
+The procedural builder uses a configurable prefab which can handle the production of MIDI/MPE note streams. Currently pointer based and trigger (using physics) based interactions are supported. Pointers can use axis drag or pressure (available in [PointerEventData](https://docs.unity3d.com/Packages/com.unity.ugui@2.0/api/UnityEngine.EventSystems.PointerEventData.html)) to map on to musical control parameters.
 
-## MPE Control
+### MIDI with per note pressure
+
+Currently implemented for pointers
+
+<p align="center">
+    <img alt="MPE Controller" src="https://github.com/jbat100/sonosthesia-unity-demo-instrument/assets/1318918/bd43d460-3643-41e9-9492-1cbd801c8fbb" width="75%">
+</p>
+
+Triggers in experimental state
+
+### MPE with per note pressure/slide/bend
+
+Currently implemented for pointers
 
 <p align="center">
     <img alt="MPE Controller" src="https://github.com/jbat100/sonosthesia-unity-demo-instrument/assets/1318918/b21e625a-6ba0-4535-a195-c89b7fe42217" width="75%">
 </p>
 
-The procedural builder uses a configurable prefab which can handle the production of MPE note streams. Currently pointer based and trigger (using physics) based interactions are supported. When using the pointer interaction the pressure, slide and bend of each note can be controlled sepearately using drag and pressure on multitouch platforms. 

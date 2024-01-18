@@ -138,7 +138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _channel: {fileID: 5118171525597611700}
   _output: {fileID: 7678851945071934481}
-  _aftertouch: 0
+  _aftertouch: 1
 --- !u!114 &4110536588165977214
 MonoBehaviour:
   m_ObjectHideFlags: 0
