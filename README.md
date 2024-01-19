@@ -1,6 +1,6 @@
 # sonosthesia-unity-demo-instrument
 
-This demo showcases the instrument building and MIDI/MPE control capabilities of the sonosthesia framework. In particular the following packages:
+This demo showcases the instrument building and MIDI/MPE control capabilities of the [sonosthesia framework](https://github.com/jbat100/sonosthesia-unity-packages). In particular the following packages:
 
 - [com.sonosthesia.touch](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.touch)
 - [com.sonosthesia.instrument](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.instrument)
@@ -80,3 +80,7 @@ Currently implemented for pointers
     <img alt="MPE Controller" src="https://github.com/jbat100/sonosthesia-unity-demo-instrument/assets/1318918/b21e625a-6ba0-4535-a195-c89b7fe42217" width="75%">
 </p>
 
+# Current Issues
+
+- Availability is not updated on auto kill
+- Dynamics value generator needs debugging
