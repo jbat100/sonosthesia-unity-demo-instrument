@@ -7,7 +7,6 @@
     "com.sonosthesia.instrument": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.instrument",
     "com.sonosthesia.mapping": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.mapping",
     "com.sonosthesia.midi": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.midi",
-    "com.sonosthesia.pack": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.pack",
     "com.sonosthesia.processing": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.processing",
     "com.sonosthesia.rtmidi": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.rtmidi",
     "com.sonosthesia.sequencer": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.sequencer",
