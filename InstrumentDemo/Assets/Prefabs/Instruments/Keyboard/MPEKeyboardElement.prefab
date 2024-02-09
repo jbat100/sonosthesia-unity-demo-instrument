@@ -98,7 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 3484812215178382825}
   _factor: {x: 1, y: 1, z: 1}
-  _offset: {x: 0.1, y: 0.1, z: 0.1}
+  _offset: {x: 0.01, y: 0.01, z: 0.01}
 --- !u!1 &3500895091726121055
 GameObject:
   m_ObjectHideFlags: 0

@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09365c4a6a654afdade28cd85427b583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 792433137050802691}
+  _container: {fileID: 792433137050802691}
   _originPrefab: {fileID: 1920636664342884993, guid: 0374aa599655e5c4cad685fd0ae30e97, type: 3}
   _targetPrefab: {fileID: 1920636664342884993, guid: 1711bed227d9de242bf6aa48033905b0, type: 3}
   _lineRendererPrefab: {fileID: -403053538776792211, guid: 4c9dcf00f39972f4bb72a74a39815887, type: 3}
@@ -297,7 +297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b496bac6ed94bd997dc82287baa5877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 792433137050802691}
+  _container: {fileID: 792433137050802691}
   _targets:
   - {fileID: 2339548396045583726}
 --- !u!1 &8903369909586542756
@@ -361,6 +361,8 @@ MonoBehaviour:
     _abs: 0
     _scale: 0.1
     _offset: 64
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}
 --- !u!1001 &7001300626052785304
 PrefabInstance:
   m_ObjectHideFlags: 0

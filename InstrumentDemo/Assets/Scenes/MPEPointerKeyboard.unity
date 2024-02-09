@@ -372,7 +372,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.03
+  orthographic size: 0.75
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -397,7 +397,7 @@ Transform:
   m_GameObject: {fileID: 1632490115}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.77, y: 0, z: -14.7}
+  m_LocalPosition: {x: 10.78, y: 0, z: -14.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -522,17 +522,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _autoRefresh: 1
   _prefab: {fileID: 6212827280107960697, guid: 5c45adc3694f5184c9c70834f3e60bad, type: 3}
-  _startNote: 53
-  _endNote: 76
-  _white:
-    _scale: {x: 0.87, y: 3.22, z: 0.1}
-    _offset: {x: -0.05, y: 0, z: 0}
+  _startNote: 48
+  _endNote: 71
+  _whiteTransform:
+    _scale: {x: 0.1, y: 0.3, z: 0.01}
+    _offset: {x: 0, y: 0, z: 0}
+  _blackTransform:
+    _scale: {x: 0.1, y: 0.2, z: 0.01}
+    _offset: {x: 0, y: 0.075, z: -0.05}
+  _whiteState:
     _material: {fileID: 2100000, guid: a5ecfae87b99f8f4cbf30a91c3eb6b82, type: 2}
-  _black:
-    _scale: {x: 0.64, y: 2.14, z: 0.1}
-    _offset: {x: 0, y: 0.6, z: -0.1}
+    _layer:
+      _layerIndex: 6
+  _blackState:
     _material: {fileID: 2100000, guid: 0d524f0a099ed4c4480875ec8a0b6e75, type: 2}
-  _spacing: {x: 1.01, y: 0, z: 0}
+    _layer:
+      _layerIndex: 6
+  _ghostState:
+    _material: {fileID: 2100000, guid: 1ca6c1c929b4d934ca2b8519d2d6fe22, type: 2}
+    _layer:
+      _layerIndex: 8
+  _filters: []
+  _spacing: {x: 0.13, y: 0, z: 0}
 --- !u!4 &7379884177084633651
 Transform:
   m_ObjectHideFlags: 0
@@ -619,7 +630,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4786706041967706044, guid: 74f25e80570965c48bc926e7f74c9fb3, type: 3}
       propertyPath: _portName
-      value: loopMIDI Port 1
+      value: loopMIDI Port
       objectReference: {fileID: 0}
     - target: {fileID: 6184890867655336045, guid: 74f25e80570965c48bc926e7f74c9fb3, type: 3}
       propertyPath: m_LocalPosition.x

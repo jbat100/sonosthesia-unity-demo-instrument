@@ -133,13 +133,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09365c4a6a654afdade28cd85427b583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 6577581445546527621}
+  _container: {fileID: 6577581445546527621}
   _originPrefab: {fileID: 1920636664342884993, guid: 0374aa599655e5c4cad685fd0ae30e97, type: 3}
   _targetPrefab: {fileID: 1920636664342884993, guid: 1711bed227d9de242bf6aa48033905b0, type: 3}
   _lineRendererPrefab: {fileID: -403053538776792211, guid: 4c9dcf00f39972f4bb72a74a39815887, type: 3}
   _offset: 0.5
-  _applyScrollScale: 1
-  _targetScrollScale: 0.1
+  _scaleDriver: 0
+  _scaleSensitivity: 0.1
 --- !u!1 &1339218162909088826
 GameObject:
   m_ObjectHideFlags: 0
@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b496bac6ed94bd997dc82287baa5877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 6577581445546527621}
+  _container: {fileID: 6577581445546527621}
   _targets:
   - {fileID: 7797048689571518613}
 --- !u!1 &1586412778825782827
@@ -317,6 +317,8 @@ MonoBehaviour:
     _abs: 0
     _scale: 0.01
     _offset: 0
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}
 --- !u!1 &6992485631007514001
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,6 +370,8 @@ MonoBehaviour:
     _abs: 0
     _scale: 1
     _offset: 64
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}
 --- !u!1 &7373797956431141120
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,6 +433,8 @@ MonoBehaviour:
     _abs: 0
     _scale: 0.1
     _offset: 64
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}
 --- !u!1001 &5428632508417882593
 PrefabInstance:
   m_ObjectHideFlags: 0
