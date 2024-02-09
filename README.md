@@ -47,12 +47,17 @@ Note these builders can be used both in play mode or in edit mode.
 
 ### Keyboard
 
-A highly configurable keyboard builder. 
+A highly configurable keyboard builder. With configurable key shape and low/high note
 
 <p align="center">
     <img alt="Keyboard Builder" src="https://github.com/jbat100/sonosthesia-unity-demo-instrument/assets/1318918/2a9622b9-c820-4f28-991e-22df35698778" width="75%">
 </p>
 
+Ghosting notes according to different scales to avoid accidental touches
+
+<p align="center">
+    <img alt="Keyboard Builder" src="https://github.com/jbat100/sonosthesia-unity-demo-instrument/assets/1318918/3e62e079-c46d-4778-802b-14ba055adcef" width="75%">
+</p>
 
 ### Experimental
 
