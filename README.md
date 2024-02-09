@@ -1,6 +1,6 @@
 # sonosthesia-unity-demo-instrument
 
-This demo showcases the instrument building and MIDI/MPE control capabilities of the sonosthesia framework. In particular the following packages:
+This demo showcases the instrument building and MIDI/MPE control capabilities of the [sonosthesia framework](https://github.com/jbat100/sonosthesia-unity-packages). In particular the following packages:
 
 - [com.sonosthesia.touch](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.touch)
 - [com.sonosthesia.instrument](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.instrument)
@@ -47,12 +47,17 @@ Note these builders can be used both in play mode or in edit mode.
 
 ### Keyboard
 
-A highly configurable keyboard builder. 
+A highly configurable keyboard builder. With configurable key shape and low/high note
 
 <p align="center">
     <img alt="Keyboard Builder" src="https://github.com/jbat100/sonosthesia-unity-demo-instrument/assets/1318918/2a9622b9-c820-4f28-991e-22df35698778" width="75%">
 </p>
 
+Ghosting notes according to different scales to avoid accidental touches
+
+<p align="center">
+    <img alt="Keyboard Builder" src="https://github.com/jbat100/sonosthesia-unity-demo-instrument/assets/1318918/3e62e079-c46d-4778-802b-14ba055adcef" width="75%">
+</p>
 
 ### Experimental
 
@@ -80,3 +85,7 @@ Currently implemented for pointers
     <img alt="MPE Controller" src="https://github.com/jbat100/sonosthesia-unity-demo-instrument/assets/1318918/b21e625a-6ba0-4535-a195-c89b7fe42217" width="75%">
 </p>
 
+# Current Issues
+
+- Availability is not updated on auto kill
+- Dynamics value generator needs debugging
