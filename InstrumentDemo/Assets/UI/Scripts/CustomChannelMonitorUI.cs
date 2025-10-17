@@ -76,7 +76,7 @@ namespace Sonosthesia.UI
             _count = 0;
             _subscription?.Dispose();
 
-            _subscription = _channel.StreamObservable.Subscribe(stream =>
+            _subscription = _channel.Observable.Subscribe(pair =>
             {
                 int localCount = _count++;
                 TimeSpan start = TimeSpan.FromSeconds(Time.time) - referenceTime;
@@ -106,7 +106,7 @@ namespace Sonosthesia.UI
                     _dirty = true;
                 }
                 
-                stream.TakeUntil(this.OnDisableAsObservable())
+                pair.Value.TakeUntil(this.OnDisableAsObservable())
                     .Subscribe(UpdateValue, exception => Clean(), Clean);
             }); 
 
