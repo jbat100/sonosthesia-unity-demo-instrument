@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 983795bfa393455aa343f5c7aa4db9da, type: 3}
   m_Name: TouchMIDINoteConfiguration
   m_EditorClassIdentifier: 
-  _applyPressure: 0
+  _applyPressure: 1
   _channel:
     _extractorType: 0
     _origin: 0
@@ -22,16 +22,14 @@ MonoBehaviour:
     _provider:
       underlyingValue: {fileID: 0}
   _pitch:
-    _extractorType: 0
-    _origin: 0
+    _extractorType: 1
+    _origin: 1
     _constant: 0
     _extractor:
       underlyingValue: {fileID: 0}
     _provider:
       underlyingValue: {fileID: 0}
   _velocity:
-    _extractor: {fileID: 0}
-    _constantValue: 1
     _postProcessing: 0
     _curve:
       serializedVersion: 2
@@ -65,13 +63,13 @@ MonoBehaviour:
     _clamp:
       _min: 0
       _max: 0
+    _extractor:
+      underlyingValue: {fileID: 0}
+    _constantValue: 1
     _extractorType: 1
     _velocityType: 0
     _distanceAxes: 7
   _pressure:
-    _extractor: {fileID: 0}
-    _constantValue: 1
-    _followStrategy: 0
     _postProcessing: 0
     _curve:
       serializedVersion: 2
@@ -105,6 +103,10 @@ MonoBehaviour:
     _clamp:
       _min: 0
       _max: 0
+    _extractor:
+      underlyingValue: {fileID: 0}
+    _constantValue: 1
+    _followStrategy: 0
     _extractorType: 1
     _velocityType: 0
     _axes: -1

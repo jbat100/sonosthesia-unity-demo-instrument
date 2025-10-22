@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1594767068108232110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1938109477998728222}
+  - component: {fileID: 2582501031811496624}
+  m_Layer: 0
+  m_Name: KeyboardBuilder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1938109477998728222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594767068108232110}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2582501031811496624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594767068108232110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e101f08356440678fd2832e9c5568fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _autoRefresh: 1
+  _prefab: {fileID: 0}
+  _root: {fileID: 0}
+  _startNote: 48
+  _endNote: 71
+  _whiteTransform:
+    _scale: {x: 0.1, y: 0.3, z: 0.01}
+    _offset: {x: 0, y: 0, z: 0}
+  _blackTransform:
+    _scale: {x: 0.1, y: 0.2, z: 0.01}
+    _offset: {x: 0, y: 0.075, z: -0.05}
+  _whiteState:
+    _material: {fileID: 2100000, guid: a5ecfae87b99f8f4cbf30a91c3eb6b82, type: 2}
+    _layer:
+      _layerIndex: 6
+  _blackState:
+    _material: {fileID: 2100000, guid: 0d524f0a099ed4c4480875ec8a0b6e75, type: 2}
+    _layer:
+      _layerIndex: 6
+  _ghostState:
+    _material: {fileID: 2100000, guid: 1ca6c1c929b4d934ca2b8519d2d6fe22, type: 2}
+    _layer:
+      _layerIndex: 8
+  _filters: []
+  _spacing: {x: 0.13, y: 0, z: 0}
