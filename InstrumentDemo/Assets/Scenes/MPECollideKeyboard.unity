@@ -153,7 +153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _prefab: {fileID: 4225674686412031887, guid: 2841351ac37350646b07abb2bb1aa95e, type: 3}
   _cam: {fileID: 1632490117}
-  _launchSpeed: 20
+  _launchSpeed: 5
   _lifeTime: 5
   _spawnOffsetAlongRay: 0.25
 --- !u!4 &291332469
@@ -180,8 +180,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1234338419}
-  - component: {fileID: 1234338421}
-  - component: {fileID: 1234338420}
   m_Layer: 0
   m_Name: DragAffordance
   m_TagString: Untagged
@@ -204,42 +202,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2030826964}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1234338420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1234338418}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a95347dee2d04d71a1bd716b004e4082, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _log: 0
---- !u!114 &1234338421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1234338418}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09365c4a6a654afdade28cd85427b583, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _log: 0
-  _gates: []
-  _inputs:
-  - {fileID: 1234338420}
-  _relay: {fileID: 0}
-  _originPrefab: {fileID: 1920636664342884993, guid: 0374aa599655e5c4cad685fd0ae30e97, type: 3}
-  _targetPrefab: {fileID: 1920636664342884993, guid: 1711bed227d9de242bf6aa48033905b0, type: 3}
-  _lineRendererPrefab: {fileID: -403053538776792211, guid: 4c9dcf00f39972f4bb72a74a39815887, type: 3}
-  _offset: 0.5
-  _scaleDriver: 0
-  _scaleSensitivity: 0.1
 --- !u!1 &1368608608
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,13 +640,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ba995392e6e4adf8b1d0d98f21e13e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _log: 0
+  _log: 1
   _gates: []
   _inputs: []
   _relay: {fileID: 0}
   _output: {fileID: 2030826965}
   _configuration:
-    underlyingValue: {fileID: 0}
+    underlyingValue: {fileID: 11400000, guid: 86cb0785d8d3fed4a9e7a46d9041bfb7, type: 2}
 --- !u!4 &1608730269413789393
 Transform:
   m_ObjectHideFlags: 0

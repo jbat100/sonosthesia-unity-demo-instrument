@@ -15,6 +15,14 @@ MonoBehaviour:
   _applyPressure: 0
   _applySlide: 0
   _applyBend: 0
+  _pitch:
+    _extractorType: 1
+    _origin: 1
+    _constant: 0
+    _extractor:
+      underlyingValue: {fileID: 0}
+    _provider:
+      underlyingValue: {fileID: 0}
   _velocity:
     _postProcessing:
       _postProcessing: 0
@@ -52,7 +60,7 @@ MonoBehaviour:
         _max: 0
     _extractor:
       underlyingValue: {fileID: 0}
-    _constantValue: 0
+    _constantValue: 50
     _velocityType: 0
     _axes: -1
     _extractorType: 1
