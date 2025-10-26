@@ -3,6 +3,7 @@
     "com.sonosthesia.adaptivemidi": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.adaptivemidi",
     "com.sonosthesia.channel": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.channel",
     "com.sonosthesia.flow": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.flow",
+    "com.sonosthesia.collide": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.collide",
     "com.sonosthesia.generator": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.generator",
     "com.sonosthesia.instrument": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.instrument",
     "com.sonosthesia.mapping": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.mapping",

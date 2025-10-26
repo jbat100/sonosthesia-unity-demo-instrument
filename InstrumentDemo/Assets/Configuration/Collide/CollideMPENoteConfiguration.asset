@@ -9,20 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 201896c1983f48748e60697b7ab72c64, type: 3}
-  m_Name: TouchMPENoteConfiguration
+  m_Script: {fileID: 11500000, guid: 0c6d219f2bc740ef9eb1902d524cd8e3, type: 3}
+  m_Name: CollideMPENoteConfiguration
   m_EditorClassIdentifier: 
-  _applyPressure: 1
-  _applySlide: 1
-  _applyBend: 1
-  _pitch:
-    _extractorType: 0
-    _origin: 0
-    _constant: 0
-    _extractor:
-      underlyingValue: {fileID: 0}
-    _provider:
-      underlyingValue: {fileID: 0}
+  _applyPressure: 0
+  _applySlide: 0
+  _applyBend: 0
   _velocity:
     _postProcessing:
       _postProcessing: 0
@@ -60,7 +52,7 @@ MonoBehaviour:
         _max: 0
     _extractor:
       underlyingValue: {fileID: 0}
-    _constantValue: 60
+    _constantValue: 0
     _velocityType: 0
     _axes: -1
     _extractorType: 1
@@ -102,15 +94,10 @@ MonoBehaviour:
     _extractor:
       underlyingValue: {fileID: 0}
     _followStrategy: 0
-    _constantValue: 60
+    _constantValue: 0
     _extractorType: 1
     _velocityType: 0
     _axes: -1
-    _actorModulationType: 0
-    _actorModulation:
-      _strategy: 1
-      _scale: 1
-      _offset: 0
   _slide:
     _postProcessing:
       _postProcessing: 0
@@ -149,15 +136,10 @@ MonoBehaviour:
     _extractor:
       underlyingValue: {fileID: 0}
     _followStrategy: 0
-    _constantValue: 1
+    _constantValue: 0
     _extractorType: 1
     _velocityType: 0
     _axes: -1
-    _actorModulationType: 0
-    _actorModulation:
-      _strategy: 1
-      _scale: 1
-      _offset: 0
   _bend:
     _postProcessing:
       _postProcessing: 0
@@ -196,12 +178,7 @@ MonoBehaviour:
     _extractor:
       underlyingValue: {fileID: 0}
     _followStrategy: 0
-    _constantValue: 1
+    _constantValue: 0
     _extractorType: 1
     _velocityType: 0
     _axes: -1
-    _actorModulationType: 0
-    _actorModulation:
-      _strategy: 1
-      _scale: 1
-      _offset: 0

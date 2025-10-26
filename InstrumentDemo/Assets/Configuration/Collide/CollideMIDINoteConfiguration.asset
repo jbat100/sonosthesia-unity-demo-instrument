@@ -9,21 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 983795bfa393455aa343f5c7aa4db9da, type: 3}
-  m_Name: TouchMIDINoteConfiguration
+  m_Script: {fileID: 11500000, guid: 13a16474759249b884a3fe9a90faf3d6, type: 3}
+  m_Name: CollideMIDINoteConfiguration
   m_EditorClassIdentifier: 
-  _applyPressure: 1
-  _channel:
+  _applyPressure: 0
+  _pitch:
     _extractorType: 0
     _origin: 0
-    _constant: 0
-    _extractor:
-      underlyingValue: {fileID: 0}
-    _provider:
-      underlyingValue: {fileID: 0}
-  _pitch:
-    _extractorType: 1
-    _origin: 1
     _constant: 0
     _extractor:
       underlyingValue: {fileID: 0}
@@ -66,7 +58,7 @@ MonoBehaviour:
         _max: 0
     _extractor:
       underlyingValue: {fileID: 0}
-    _constantValue: 1
+    _constantValue: 0
     _velocityType: 0
     _axes: -1
     _extractorType: 1
@@ -108,12 +100,7 @@ MonoBehaviour:
     _extractor:
       underlyingValue: {fileID: 0}
     _followStrategy: 0
-    _constantValue: 1
+    _constantValue: 0
     _extractorType: 1
     _velocityType: 0
     _axes: -1
-    _actorModulationType: 0
-    _actorModulation:
-      _strategy: 1
-      _scale: 1
-      _offset: 0

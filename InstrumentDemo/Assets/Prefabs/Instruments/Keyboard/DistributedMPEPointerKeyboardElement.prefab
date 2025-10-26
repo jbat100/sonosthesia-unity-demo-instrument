@@ -199,8 +199,7 @@ MonoBehaviour:
   _inputs:
   - {fileID: 8104858342132772045}
   _relay: {fileID: 3171294469138193670}
-  _output: {fileID: 0}
-  _values: {fileID: 7130688837672369293}
+  _output: {fileID: 7130688837672369293}
   _configuration:
     underlyingValue: {fileID: 11400000, guid: b1f829365b22e4f4a84127ea511e7e99, type: 2}
 --- !u!114 &1057864213680371164
@@ -248,7 +247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5434172591483119872, guid: 4906b869911bd6b47b9d25327f282ad5, type: 3}
       propertyPath: m_Name
-      value: MPEPointerPositionKeyboardElement
+      value: DistributedMPEPointerKeyboardElement
       objectReference: {fileID: 0}
     - target: {fileID: 5434172591483119872, guid: 4906b869911bd6b47b9d25327f282ad5, type: 3}
       propertyPath: m_Layer
@@ -333,6 +332,7 @@ MonoBehaviour:
   _domain: 0
   _interactionLayers:
     m_Bits: 4294967295
+  _dynamicsMonitor: {fileID: 0}
   _eventChannel: {fileID: 8104858342132772045}
 --- !u!114 &8104858342132772045
 MonoBehaviour:
