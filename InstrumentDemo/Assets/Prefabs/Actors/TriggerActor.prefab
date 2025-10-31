@@ -13,13 +13,13 @@ GameObject:
   - component: {fileID: 8882900783512719869}
   - component: {fileID: 5520339244843496719}
   - component: {fileID: 4411429063091066664}
-  - component: {fileID: 6358220498565284440}
   - component: {fileID: 134218442209552591}
   - component: {fileID: 7633528801033921162}
   - component: {fileID: 1630100779836768807}
   - component: {fileID: 8221443032128913094}
+  - component: {fileID: 6153424203945721314}
   m_Layer: 7
-  m_Name: MPETriggerActor
+  m_Name: TriggerActor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123,23 +123,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f841af043b074ca0adb0034612b6f871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _maxConcurrent: 1
-  _allowSwitching: 1
+  _conflictResolution: 0
+  _perCollider: 0
   _parent: {fileID: 0}
---- !u!114 &6358220498565284440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6224229427122721985}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3ea45f1f4ef4d68b6ab1dfaeeeb5050, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _domain: 0
-  _node: {fileID: 4411429063091066664}
 --- !u!114 &134218442209552591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,7 +194,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad954164d26d48eaaedafb45eb403200, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 1630100779836768807}
+  _distinct: 1
   _processingFactory: {fileID: 0}
-  _renderer: {fileID: 0}
   _name: _BaseColor
+  _renderer: {fileID: 0}
+  _renderers: []
+  _group: {fileID: 0}
+  _materialSelector: 1
+  _usePropertyBlock: 0
+  _materialIndex: 0
+--- !u!114 &6153424203945721314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6224229427122721985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b9961930204c1087d5bdb713d78aee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _domain: 0
+  _interactionLayers:
+    m_Bits: 4294967295
+  _dynamicsMonitor: {fileID: 0}
+  _mute: 0
+  _node: {fileID: 4411429063091066664}
+  _gates: []
+  _allowTrojan: 0
+  _allowDeferred: 0
+  _endOnGates: 1
+  _endOnExit: 1
+  _restartOnEnter: 1
+  _autoEnd: 0
+  _autoEndDelay: 0
+  _actorMatch: 2

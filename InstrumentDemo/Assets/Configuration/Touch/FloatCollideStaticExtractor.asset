@@ -51,5 +51,5 @@ MonoBehaviour:
       underlyingValue: {fileID: 0}
     _constantValue: 0
     _velocityType: 0
-    _axes: 7
+    _axes: -1
     _extractorType: 3

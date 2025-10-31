@@ -12,10 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13a16474759249b884a3fe9a90faf3d6, type: 3}
   m_Name: CollideMIDINoteConfiguration
   m_EditorClassIdentifier: 
-  _applyPressure: 0
-  _pitch:
+  _applyPressure: 1
+  _channel:
     _extractorType: 0
     _origin: 0
+    _constant: 7
+    _extractor:
+      underlyingValue: {fileID: 0}
+    _provider:
+      underlyingValue: {fileID: 0}
+  _pitch:
+    _extractorType: 1
+    _origin: 1
     _constant: 0
     _extractor:
       underlyingValue: {fileID: 0}
@@ -58,7 +66,7 @@ MonoBehaviour:
         _max: 0
     _extractor:
       underlyingValue: {fileID: 0}
-    _constantValue: 0
+    _constantValue: 97
     _velocityType: 0
     _axes: -1
     _extractorType: 1
@@ -100,7 +108,7 @@ MonoBehaviour:
     _extractor:
       underlyingValue: {fileID: 0}
     _followStrategy: 0
-    _constantValue: 0
+    _constantValue: 60
     _extractorType: 1
     _velocityType: 0
     _axes: -1

@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 6183269852334656753}
   - component: {fileID: 6564385386752990351}
   m_Layer: 6
-  m_Name: CentralizedMPEPointerKeyboardElement
+  m_Name: MPEPointerKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

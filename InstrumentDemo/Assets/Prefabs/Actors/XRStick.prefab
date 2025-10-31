@@ -469,7 +469,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6224229427122721985, guid: db377001916234b7b8caa098b42110ad, type: 3}
       propertyPath: m_Name
-      value: MPETriggerActor
+      value: TriggerActor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

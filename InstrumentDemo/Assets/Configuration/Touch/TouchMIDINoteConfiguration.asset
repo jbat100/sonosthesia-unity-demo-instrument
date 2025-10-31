@@ -31,7 +31,7 @@ MonoBehaviour:
       underlyingValue: {fileID: 0}
   _velocity:
     _postProcessing:
-      _postProcessing: 0
+      _postProcessing: 2
       _curve:
         serializedVersion: 2
         m_Curve:
@@ -58,9 +58,9 @@ MonoBehaviour:
         m_RotationOrder: 4
       _remap:
         _fromMin: 0
-        _fromMax: 1
+        _fromMax: 3
         _toMin: 0
-        _toMax: 1
+        _toMax: 127
       _clamp:
         _min: 0
         _max: 0
@@ -69,7 +69,7 @@ MonoBehaviour:
     _constantValue: 1
     _velocityType: 0
     _axes: -1
-    _extractorType: 1
+    _extractorType: 2
   _pressure:
     _postProcessing:
       _postProcessing: 0
