@@ -56,7 +56,15 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
+    "com.unity.modules.xr": "1.0.0",
+    "com.sonosthesia.ease": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.ease",
+    "com.sonosthesia.interaction": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.interaction",
+    "com.sonosthesia.dynamic": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.dynamic",
+    "com.sonosthesia.envelope": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.envelope",
+    "com.sonosthesia.xr": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.xr",
+    "com.sonosthesia.scheduler": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.scheduler",
+    "com.sonosthesia.pointer": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.pointer",
+    "com.sonosthesia.scaffold": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.scaffold"
   },
   "scopedRegistries": [
     {
