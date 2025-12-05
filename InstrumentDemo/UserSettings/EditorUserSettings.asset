@@ -6,34 +6,34 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-      value: 5450045156505a580b5b5470417a0644144e4c28797071332e2d1f61e0e53239
-      flags: 0
-    RecentlyUsedSceneGuid-1:
-      value: 0157075e5056080e550b097b41775a44464e4c28787a25362b714864e0b0673a
-      flags: 0
-    RecentlyUsedSceneGuid-2:
       value: 06060c0203540a5d0e0d082716770744474e4b787a7a7f65787d4935bab96d6d
       flags: 0
-    RecentlyUsedSceneGuid-3:
+    RecentlyUsedSceneGuid-1:
       value: 5253070704530c085e585f2315220744454e492f747177627d7e1f60e0e1373a
       flags: 0
-    RecentlyUsedSceneGuid-4:
-      value: 0053525f5602080c540c0d7a41210e4445154a2f742d7f627a714f61b5e26d6b
-      flags: 0
-    RecentlyUsedSceneGuid-5:
+    RecentlyUsedSceneGuid-2:
       value: 005403575d0c5f03585d592311770c12404e4f7f287b20687e7c4f62e4e46560
       flags: 0
-    RecentlyUsedSceneGuid-6:
+    RecentlyUsedSceneGuid-3:
       value: 0102555300010b0e09580e77117a0e44464f4e7d74787f607a7b4535bae6606f
       flags: 0
-    RecentlyUsedSceneGuid-7:
+    RecentlyUsedSceneGuid-4:
       value: 0706020552510f0f5d5f0a76467759404715487b2e7f77622b7a1e64e0b9666e
       flags: 0
-    RecentlyUsedSceneGuid-8:
+    RecentlyUsedSceneGuid-5:
       value: 5150075256060a0d0b5d5e7245210c44144e1b29782e77357c7d1931bbb6356b
       flags: 0
-    RecentlyUsedSceneGuid-9:
+    RecentlyUsedSceneGuid-6:
       value: 0504075001005f080b0d0f7a16750644424e4e7d752972662c704866b1b66d3a
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+      value: 5601015355035a5f0c5d5d2743770f491415412f79702360782a1b36b2e1633c
+      flags: 0
+    RecentlyUsedSceneGuid-8:
+      value: 5304040000535e5e0f5c0e7615775b11144f1d2b7d7a7368292a4b67e1b4676a
+      flags: 0
+    RecentlyUsedSceneGuid-9:
+      value: 0053525f5602080c540c0d7a41210e4445154a2f742d7f627a714f61b5e26d6b
       flags: 0
     UnityRemoteDevice:
       value: 530104565d055b0c405e5c72337206414747390c747c766208
@@ -57,3 +57,4 @@ EditorUserSettings:
   m_VCAllowAsyncUpdate: 1
   m_VCScanLocalPackagesOnConnect: 1
   m_ArtifactGarbageCollection: 1
+  m_CompressAssetsOnImport: 1
