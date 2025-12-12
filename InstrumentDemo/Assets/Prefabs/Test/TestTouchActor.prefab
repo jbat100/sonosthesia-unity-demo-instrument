@@ -111,6 +111,11 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -132,9 +137,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &7885981851031251477
 PrefabInstance:
@@ -197,9 +204,9 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5352368473744075141, guid: 4f406074bffd34f218c6f3c4cc372299, type: 3}
-      propertyPath: _gates.Array.data[0]
+      propertyPath: '_gates.Array.data[0]'
       value: 
-      objectReference: {fileID: 3996664589490479002}
+      objectReference: {fileID: 7588051382357386758}
     - target: {fileID: 6657198198901209068, guid: 4f406074bffd34f218c6f3c4cc372299, type: 3}
       propertyPath: m_Name
       value: TestTouchActor
@@ -222,7 +229,7 @@ PrefabInstance:
       addedObject: {fileID: 4528324178429092330}
     - targetCorrespondingSourceObject: {fileID: 6657198198901209068, guid: 4f406074bffd34f218c6f3c4cc372299, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3996664589490479002}
+      addedObject: {fileID: 7588051382357386758}
   m_SourcePrefab: {fileID: 100100000, guid: 4f406074bffd34f218c6f3c4cc372299, type: 3}
 --- !u!1 &3536377715215392249 stripped
 GameObject:
@@ -245,7 +252,7 @@ MonoBehaviour:
   _curl: 0
   _tension: 0
   _pinch: 0
---- !u!114 &3996664589490479002
+--- !u!114 &7588051382357386758
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -254,11 +261,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3536377715215392249}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdb94d3abfe64ff390acde740624b023, type: 3}
+  m_Script: {fileID: 11500000, guid: 60903c83c625459c9a4308faa58c038c, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Sonosthesia.Interaction::Sonosthesia.Interaction.DomainInteractionGate
   _bypass: 0
-  _block: 0
+  _source: 1
+  _actor: 0
+  _domains: 
 --- !u!4 &6255065826778076454 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4305115293265428275, guid: 4f406074bffd34f218c6f3c4cc372299, type: 3}

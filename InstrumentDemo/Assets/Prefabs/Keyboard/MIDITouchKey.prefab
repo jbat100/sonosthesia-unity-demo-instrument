@@ -212,7 +212,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -229,12 +229,12 @@ GameObject:
   - component: {fileID: 6211949953776824481}
   - component: {fileID: 2120639069759357080}
   - component: {fileID: 6564385386752990351}
-  - component: {fileID: 1266004646828882113}
-  - component: {fileID: 7711515224952024421}
   - component: {fileID: 6528515757501249252}
   - component: {fileID: 9087143192744821628}
+  - component: {fileID: 8945774460126622363}
+  - component: {fileID: 3357054797186597350}
   m_Layer: 6
-  m_Name: MIDICollideKey
+  m_Name: MIDITouchKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -283,45 +283,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inputs:
-  - {fileID: 9087143192744821628}
+  - underlyingValue: {fileID: 9087143192744821628}
   _targets:
   - {fileID: 2838058287901401460}
---- !u!114 &1266004646828882113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5434172591483119872}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4bdfa3b2f5f4fd69a1b3e8f84ed1042, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _log: 0
-  _domain: 0
-  _interactionLayers:
-    m_Bits: 4294967295
-  _mute: 0
-  _gates: []
-  _dynamicsMonitor: {fileID: 0}
-  _channel:
-    underlyingValue: {fileID: 7711515224952024421}
-  _endStrategy: 0
-  _autoEndDelay: 1
---- !u!114 &7711515224952024421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5434172591483119872}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bdb38bd4dd2a4fe6bd361b82eab21a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _log: 0
 --- !u!54 &6528515757501249252
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -362,3 +326,48 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
+--- !u!114 &8945774460126622363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5434172591483119872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b9961930204c1087d5bdb713d78aee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _domain: 0
+  _interactionLayers:
+    m_Bits: 4294967295
+  _mute: 0
+  _gates: []
+  _dynamicsMonitor: {fileID: 0}
+  _node: {fileID: 3357054797186597350}
+  _allowTrojan: 0
+  _allowDeferred: 0
+  _endOnGates: 1
+  _endOnExit: 1
+  _restartOnEnter: 1
+  _autoEnd: 0
+  _autoEndDelay: 0
+  _actorMatch: 2
+--- !u!114 &3357054797186597350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5434172591483119872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f841af043b074ca0adb0034612b6f871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _maxConcurrent: 1
+  _conflictResolution: 0
+  _perCollider: 0
+  _parent: {fileID: 0}

@@ -596,6 +596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HandShapesTester
       objectReference: {fileID: 0}
+    - target: {fileID: 5783224880578272894, guid: df5eb295ea9e6e0478ba8b93b4c915bc, type: 3}
+      propertyPath: _domains.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6616777344736448297, guid: df5eb295ea9e6e0478ba8b93b4c915bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
