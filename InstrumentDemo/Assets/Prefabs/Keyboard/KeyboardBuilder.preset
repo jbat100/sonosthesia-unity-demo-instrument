@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: KeyboardBuilder
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 2e101f08356440678fd2832e9c5568fc, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _autoRefresh
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _prefab
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _root
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _startNote
+    value: 48
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _endNote
+    value: 71
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _whiteTransform._scale.x
+    value: 0.1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _whiteTransform._scale.y
+    value: 0.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _whiteTransform._scale.z
+    value: 0.01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _whiteTransform._offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _whiteTransform._offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _whiteTransform._offset.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _blackTransform._scale.x
+    value: 0.1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _blackTransform._scale.y
+    value: 0.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _blackTransform._scale.z
+    value: 0.01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _blackTransform._offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _blackTransform._offset.y
+    value: 0.075
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _blackTransform._offset.z
+    value: -0.05
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _whiteState._material
+    value: 
+    objectReference: {fileID: 2100000, guid: a5ecfae87b99f8f4cbf30a91c3eb6b82, type: 2}
+  - target: {fileID: 0}
+    propertyPath: _whiteState._layer._layerIndex
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _blackState._material
+    value: 
+    objectReference: {fileID: 2100000, guid: 0d524f0a099ed4c4480875ec8a0b6e75, type: 2}
+  - target: {fileID: 0}
+    propertyPath: _blackState._layer._layerIndex
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _ghostState._material
+    value: 
+    objectReference: {fileID: 2100000, guid: 1ca6c1c929b4d934ca2b8519d2d6fe22, type: 2}
+  - target: {fileID: 0}
+    propertyPath: _ghostState._layer._layerIndex
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _filters.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _spacing.x
+    value: 0.13
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _spacing.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _spacing.z
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
